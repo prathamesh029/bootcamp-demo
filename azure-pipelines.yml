@@ -13,4 +13,4 @@ variables:
   imageName: 'shashankbarsin/bootcamp-demo:$(build.buildId)'
 
 steps:
-~scripts echo Hello
+- script: echo Hello
